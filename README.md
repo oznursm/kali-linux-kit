@@ -1,3 +1,9 @@
+**Bu projeyi kullanmak için aşağıdaki adımları takip edebilirsiniz.**
+
+**Gereksinimlerin Kurulumu:** Kullanılan araçlar Kali Linux işletim sisteminde hazır olarak gelen araçlardır. Bazı araçların çalışması için ek gereksinimler olabilir. Örneğin, pyfiglet modülünü kurmak için: pip3 install pyfiglet
+
+**Root Yetkisi:** Bazı araçlar için root yetkisi gerektirebilir. Root yetkisi almak için terminalde bu komutu kullanabilirsiniz: sudo su
+
 # kali-linux-kit
 Bir grafik kullanıcı arayüzü (GUI) oluşturarak, Kali Linux tabanlı bir ağ güvenliği araç kiti için bir arayüz sunar. Kullanıcı arayüzü, farklı ağ güvenliği görevlerini gerçekleştirmek için seçenekler sunar ve kullanıcının seçimlerine göre ilgili araçları çağırır.
 
