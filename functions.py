@@ -1,15 +1,15 @@
 import tkinter as tk  # Tkinter kütüphanesi
 import os  # Komutları çalıştırmak için
-import pyfiglet
+import pyfiglet # type: ignore
 from tkinter import simpledialog, messagebox  # Kullanıcı girişi ve hata/uyarı mesajları için
 
 # Ana pencereyi oluştur
 root = tk.Tk()
-root.title("Network - Security - Kit")
+root.title("Python Tabanlı Kali Linux Arac Kiti")
 root.geometry("400x400")  # Ana pencere boyutu
 
 # Pyfiglet ile başlık
-figlet_kit = pyfiglet.figlet_format("Python Tabanlı Kali Linux Araç Kiti", font="standard")
+figlet_kit = pyfiglet.figlet_format("Python Tabanlı Kali Linux Arac Kiti", font="standard")
 label = tk.Label(root, text=figlet_kit, font=("Courier", 10), justify="center")
 label.pack()
 
