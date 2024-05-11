@@ -19,7 +19,8 @@ Bir grafik kullanıcı arayüzü (GUI) oluşturarak, Kali Linux tabanlı bir ağ
 
 **Wordlist Oluşturma:** Kullanıcıya, belirli kriterlere göre özelleştirilmiş bir wordlist oluşturma yeteneği sağlar. Bu genellikle parola saldırıları için kullanılır.
 
-Kullanıcı, GUI üzerinden bu işlevleri seçerek istediği ağ güvenlik testlerini gerçekleştirebilir.
+Kullanıcı, GUI üzerinden bu işlevleri seçerek istediği ağ güvenlik testlerini gerçekleştirebilir. Kullanıcı arayüzü için Tkinter kütüphanesi kullanılmıştır. Tkinter, Python ile kolayca entegre edilebilen bir GUI kütüphanesidir.
+
 
 
 ![Ekran görüntüsü 2024-05-11 031838](https://github.com/oznursm/kali-linux-kit/assets/106736591/31df917d-c353-4aa7-997b-b54610002ab6)
