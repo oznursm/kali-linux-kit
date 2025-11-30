@@ -1,32 +1,64 @@
-# kali-linux-kit
+# 🐍 Python Tabanlı Kali Linux Araç Kiti
 
-## Bu projeyi kullanmak için aşağıdaki adımları takip edebilirsiniz.
+Bu proje, Kali Linux üzerinde sık kullanılan birçok siber güvenlik aracını tek bir Tkinter arayüzü üzerinden çalıştırmayı sağlayan **Python tabanlı bir GUI uygulamasıdır**.  
+Amaç, terminalde uzun komutlar yazmak yerine tek tıklamayla otomasyon sağlamaktır.
 
-**Gereksinimlerin Kurulumu:** Kullanılan araçlar Kali Linux işletim sisteminde hazır olarak gelen araçlardır. Bazı araçların çalışması için ek gereksinimler olabilir. Örneğin, pyfiglet modülünü kurmak için: pip3 install pyfiglet
+---
 
-**Root Yetkisi:** Bazı araçlar için root yetkisi gerektirebilir. Root yetkisi almak için terminalde bu komutu kullanabilirsiniz: sudo su
+## 🚀 Özellikler
 
-Bir grafik kullanıcı arayüzü (GUI) oluşturarak, Kali Linux tabanlı bir ağ güvenliği araç kiti için bir arayüz sunar. Kullanıcı arayüzü, farklı ağ güvenliği görevlerini gerçekleştirmek için seçenekler sunar ve kullanıcının seçimlerine göre ilgili araçları çağırır.
+### 🔧 MAC Adresi Değiştirme
+- Rastgele MAC adresi üretir.
+- Kullanıcıdan interface bilgisi alır (eth0, wlan0 vb.).
 
-İşlevsellik olarak şu özelliklere sahiptir:
+### 🕵️ Bilgi Toplama
+Aşağıdaki araçları tek ekrandan çalıştırabilirsiniz:
+- **Dmitry**
+- **theHarvester**
+- **Netdiscover**
+- **Wafw00f**
+- **Dirb**
+- **Dnsenum**
 
-**MAC Adresi Değiştirme:**  Kullanıcıya, bir ağ arayüzünün (örneğin, eth0 veya wlan0) MAC adresini değiştirme seçeneği sunar.
+### 🌐 Ağ Taramaları (Nmap)
+- Servis ve versiyon taraması  
+- Script taraması  
+- Ayrıntılı tarama (-A)  
+- Tüm TCP port taraması  
+- Tüm UDP port taraması  
+- İşletim sistemi tespiti  
 
-**Bilgi Toplama:** Kullanıcıya çeşitli bilgi toplama araçlarına erişim sağlar. Bu araçlar, hedef alan adı veya IP adresi için bilgi toplama işlemlerini gerçekleştirir. Örneğin, Dmitry, TheHarvester, Netdiscover, WAF, Dirb ve DNS araçlarına erişim sağlar.
+### 🛡️ Searchsploit
+- Belirtilen servis/uygulama için Exploit Database üzerinde zafiyet araması yapar.
 
-**Ağ Taramaları:** Kullanıcıya çeşitli ağ tarama seçenekleri sunar. Bu seçenekler arasında servis ve versiyon taraması, script taraması, ayrıntılı tarama, tüm TCP taraması, tüm UDP taraması ve işletim sistemi tespiti bulunur.
+### 🌍 Web Zafiyeti Taraması – Nikto
+- Standart web taraması  
+- SQL Injection odaklı tarama  
+- XSS taraması  
 
-**SearchSploit:** Kullanıcıya, belirli bir anahtar kelime ile zafiyet veritabanında arama yapma yeteneği sağlar.
+### 🖼️ Görsel Analiz – Exiftool
+- Resim dosyalarının meta verilerini inceleme.
 
-**Nikto Tarama:** Kullanıcıya, web sunucularını ve uygulamaları hedefleyen güvenlik açıklarını tespit etmek için Nikto aracını kullanma yeteneği sağlar.
+### 📰 WordPress Güvenlik Taraması – WPScan
+- Genel site taraması
+- Eklenti bilgisi çıkarma
+- Eklenti açıkları taraması
+- Tema tespiti
+- Tema açıklıkları
 
-**Exiftool:** Kullanıcıya, dijital resim dosyalarının içeriğini analiz etmek için Exiftool'u kullanma yeteneği sağlar.
+### 📝 Kişiye Özel Wordlist Oluşturma – Crunch
+- Minimum/maximum karakter
+- İçerik karakterleri
+- Dosya adı seçme
 
-**Wordpress Tarama:** Kullanıcıya, belirli bir Wordpress sitesinde güvenlik zafiyetlerini tespit etmek için wpscan aracını kullanma yeteneği sağlar.
+---
 
-**Wordlist Oluşturma:** Kullanıcıya, belirli kriterlere göre özelleştirilmiş bir wordlist oluşturma yeteneği sağlar. Bu genellikle parola saldırıları için kullanılır.
+## 📦 Gereksinimler
 
-Kullanıcı, GUI üzerinden bu işlevleri seçerek istediği ağ güvenlik testlerini gerçekleştirebilir. Kullanıcı arayüzü için Tkinter kütüphanesi kullanılmıştır. Tkinter, Python ile kolayca entegre edilebilen bir GUI kütüphanesidir.
+### Python Modülleri
+```bash
+pip install pyfiglet
+
 
 
 
