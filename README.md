@@ -40,30 +40,30 @@ Aşağıdaki araçları tek ekrandan çalıştırabilirsiniz:
 - Resim dosyalarının meta verilerini inceleme.
 
 ### 📰 WordPress Güvenlik Taraması – WPScan
-- Genel site taraması
-- Eklenti bilgisi çıkarma
-- Eklenti açıkları taraması
-- Tema tespiti
-- Tema açıklıkları
+- Genel site taraması  
+- Eklenti bilgisi çıkarma  
+- Eklenti açıkları taraması  
+- Tema tespiti  
+- Tema açıklıkları  
 
 ### 📝 Kişiye Özel Wordlist Oluşturma – Crunch
-- Minimum/maximum karakter
-- İçerik karakterleri
-- Dosya adı seçme
+- Minimum/maximum karakter  
+- İçerik karakterleri  
+- Dosya adı seçme  
+
+---
+
+## 📸 Arayüz Görseli
+
+![Ekran görüntüsü 2024-05-11 031838](https://github.com/oznursm/kali-linux-kit/assets/106736591/31df917d-c353-4aa7-997b-b54610002ab6)
 
 ---
 
 ## 📦 Gereksinimler
 
-### Python Modülleri
+### 🔧 Python Modülleri
 ```bash
 pip install pyfiglet
-
-
-
-
-![Ekran görüntüsü 2024-05-11 031838](https://github.com/oznursm/kali-linux-kit/assets/106736591/31df917d-c353-4aa7-997b-b54610002ab6)
-
 
 
 
