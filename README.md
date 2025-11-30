@@ -99,7 +99,7 @@ cd kali-linux-kit
 
 ### 🔹 Uygulamayı çalıştırın:
 ```bash
-python3 arac_kiti.py
+python3 functions.py
 ```
 
 Program açıldığında grafik arayüz görüntülenecek ve tüm işlemleri buradan seçebileceksiniz.
