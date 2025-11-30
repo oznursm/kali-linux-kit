@@ -90,11 +90,11 @@ Bu uygulamanın çalışması için aşağıdaki araçların sistemde kurulu olm
 
 ### 🔹 Depoyu klonlayın:
 ```bash
-git clone https://github.com/KULLANICI_ADI/REPO_ADI.git
+git clone https://github.com/oznursm/kali-linux-kit.git
 ```
 ### 🔹 Dizine girin:
 ```bash
-cd REPO_ADI
+cd kali-linux-kit
 ```
 
 ### 🔹 Uygulamayı çalıştırın:
