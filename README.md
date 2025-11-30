@@ -64,6 +64,52 @@ Aşağıdaki araçları tek ekrandan çalıştırabilirsiniz:
 ### 🔧 Python Modülleri
 ```bash
 pip install pyfiglet
+```
 
+## 🔧 Kali Linux Araçları (Zorunlu)
+
+Bu uygulamanın çalışması için aşağıdaki araçların sistemde kurulu olması gerekmektedir:
+
+- **macchanger**
+- **dmitry**
+- **theHarvester**
+- **netdiscover**
+- **wafw00f**
+- **dirb**
+- **dnsenum**
+- **nmap**
+- **searchsploit**
+- **nikto**
+- **exiftool**
+- **wpscan**
+- **crunch**
+
+---
+
+## 🛠️ Kurulum ve Çalıştırma
+
+### 🔹 Depoyu klonlayın:
+```bash
+git clone https://github.com/KULLANICI_ADI/REPO_ADI.git
+```
+### 🔹 Dizine girin:
+```bash
+cd REPO_ADI
+```
+
+### 🔹 Uygulamayı çalıştırın:
+```bash
+python3 arac_kiti.py
+```
+
+Program açıldığında grafik arayüz görüntülenecek ve tüm işlemleri buradan seçebileceksiniz.
+
+### ⚠️ Yasal Uyarı
+
+Bu uygulama sadece izin verilen sistemlerde kullanılmalıdır.
+
+İzinsiz sızma testi yapmak yasa dışıdır ve suçtur.
+
+Bu proje yalnızca eğitim, öğrenme ve etik siber güvenlik amaçları için geliştirilmiştir.
 
 
